@@ -32,9 +32,9 @@ This will copy the PheCode definition and mapping files from this directory into
 ### Examples
 
 ```
-PheCode_to_ICD(c(250.1,250.2))
-ICD_to_PheCode("E11")
-exclusion_code(PheCode = "", ICD = c("E10", "E11"), output = "ICD")
+phecodes <- PheCode_to_ICD(c(250.1,250.2))
+icdcodes <- ICD_to_PheCode("E11")
+exclcodes <- exclusion_code(PheCode = "", ICD = c("E10", "E11"), output = "ICD")
 PheCode_defn(250.2)
 ```
 The `exclusion_code` function allows PheCodes or ICD-10 codes, or both, to be inputted. The `output` argument requires either `"PheCode"` or `"ICD"` to determine the format of exclusion codes to be output - the default is PheCode.
