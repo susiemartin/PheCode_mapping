@@ -32,8 +32,8 @@ This will copy the PheCode definition and mapping files from this directory into
 ### Examples
 
 ```
-phecodes <- PheCode_to_ICD(c(250.1,250.2))
-icdcodes <- ICD_to_PheCode("E11")
+icdcodes <- PheCode_to_ICD(c(250.1,250.2))
+phecodes <- ICD_to_PheCode("E11")
 exclcodes <- exclusion_code(PheCode = "", ICD = c("E10", "E11"), output = "ICD")
 PheCode_defn(250.2)
 ```
