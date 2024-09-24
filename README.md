@@ -1,4 +1,4 @@
-# PheCode mapping: Convert PheCodes to ICD-10 codes, and vice versa, and identify corresponding exclusion codes
+# PheCode mapping: Convert PheCodes to ICD-10 codes, and vice versa, and identify exclusion codes
 
 R scripts and resources to:
 - Convert list of PheCodes to ICD-10 codes, and vice versa
