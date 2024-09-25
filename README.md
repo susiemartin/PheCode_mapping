@@ -15,6 +15,7 @@ This script requires the PheCode definitions file and PheCode-to-ICD-10 mapping 
 
 On an R session, run the following command:
 ```
+library(devtools)
 source_url("https://raw.githubusercontent.com/susiemartin/PheCode_mapping/refs/heads/main/PheCode_mapping.R") 
 ```
 This will copy the PheCode definition and mapping files from this directory into your R session, and make all functions below available for use in R.
