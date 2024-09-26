@@ -30,7 +30,7 @@ This will copy the PheCode definition and mapping files from this directory into
 
 `PheCode_defn` Outputs the PheCode definition for an inputted PheCode from the PheCode definitions file.
 
-**Note:** As PheCodes are hierarchical, entering the PheCode 250 will search for all PheCodes of form 250* including 250.1, 250.2, 250.21, etc.
+**Note:** As PheCodes are hierarchical<sup>1</sup>, entering the PheCode 250 will search for all PheCodes of form 250* including 250.1, 250.2, 250.21, etc.
 
 ### Examples
 
@@ -41,3 +41,7 @@ exclcodes <- exclusion_code(PheCode = "", ICD = c("E10", "E11"), output = "ICD")
 PheCode_defn(250.2)
 ```
 The `exclusion_code` function allows PheCodes or ICD-10 codes, or both, to be inputted. The `output` argument requires either `"PheCode"` or `"ICD"` to determine the format of exclusion codes to be output - the default is PheCode.
+
+### References
+
+1. Bastarache L. Using phecodes for research with the electronic health record: from PheWAS to PheRS. Annual review of biomedical data science. 2021 Jul 20;4(1):1-9.
