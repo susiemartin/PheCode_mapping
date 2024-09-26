@@ -30,7 +30,7 @@ This will copy the PheCode definition and mapping files from this directory into
 
 `PheCode_defn` Outputs the PheCode definition for an inputted PheCode from the PheCode definitions file.
 
-Note: As PheCodes are hierarchical, entering the PheCode 250 will search for all PheCodes of form 250* including 250.1, 250.2, 250.21, etc.
+**Note:** As PheCodes are hierarchical, entering the PheCode 250 will search for all PheCodes of form 250* including 250.1, 250.2, 250.21, etc.
 
 ### Examples
 
