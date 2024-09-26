@@ -30,7 +30,7 @@ This will copy the PheCode definition and mapping files from this directory into
 
 `PheCode_defn` Outputs the PheCode definition for an inputted PheCode from the PheCode definitions file.
 
-**Note:** As PheCodes are hierarchical<sup>1</sup>, using the PheCode 250 in functions `PheCode_to_ICD` and `exclusion_code` will search for all PheCodes of form 250* including 250.1, 250.2, 250.21, etc. The `PheCode_defn` function however will output the definition for the specific PheCode entered.
+**Note:** As PheCodes are hierarchical<sup>1</sup>, using the PheCode 250 in functions `PheCode_to_ICD` and `exclusion_code` will search for all PheCodes of form 250* including 250.1, 250.2, 250.21, etc. ICD-10 codes are dealt with in a similar manner. The `PheCode_defn` function however will output only the definitions for the specific PheCodes entered.
 
 ### Examples
 
